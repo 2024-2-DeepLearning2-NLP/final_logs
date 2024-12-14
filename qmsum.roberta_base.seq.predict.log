@@ -1,0 +1,29 @@
+Parameter 'function'=<function get_omission_datasets.<locals>.seq_func at 0x76955178c310> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+***** Running testing *****
+  Num examples = 1422
+  Instantaneous batch size per device = 32
+  Total eval batch size = 32
+Parameter 'function'=<function get_omission_datasets.<locals>.seq_func at 0x7b2920d4c310> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+***** Running testing *****
+  Num examples = 1422
+  Instantaneous batch size per device = 32
+  Total eval batch size = 32
+Parameter 'function'=<function get_omission_datasets.<locals>.seq_func at 0x7205fdb65310> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+***** Running testing *****
+  Num examples = 1422
+  Instantaneous batch size per device = 32
+  Total eval batch size = 32
+{'accuracy': 0.846364, 'precision': 0.498812, 'recall': 0.515971, 'f1': 0.507246}
+{'accuracy': 0.7269, 'precision': [0.876449, 0.445098, 0.498812], 'recall': [0.846148, 0.485792, 0.515971], 'f1': [0.861032, 0.464556, 0.507246]}
+[[11797  1400   745]
+ [ 1138  1966   943]
+ [  525  1051  1680]]
+***** Running testing *****
+  Num examples = 1464
+  Instantaneous batch size per device = 32
+  Total eval batch size = 32
+{'accuracy': 0.84875, 'precision': 0.504333, 'recall': 0.532468, 'f1': 0.518019}
+{'accuracy': 0.717008, 'precision': [0.870194, 0.420555, 0.504333], 'recall': [0.830588, 0.468615, 0.532468], 'f1': [0.84993, 0.443286, 0.518019]}
+[[12154  1662   817]
+ [ 1262  1956   956]
+ [  551  1033  1804]]

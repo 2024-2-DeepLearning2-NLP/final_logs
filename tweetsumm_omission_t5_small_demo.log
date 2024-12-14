@@ -1,0 +1,47 @@
+Parameter 'function'=<function get_datasets.<locals>.preprocess_function at 0x7dcb1c8a49d0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Round 1
+Start Training!
+Sample 261 of the training set: {'input_ids': [21603, 10, 3320, 382, 15, 3523, 78, 4363, 44, 2269, 500, 6913, 44, 9996, 2534, 2028, 28, 82, 520, 12, 36, 1219, 79, 130, 2327, 8, 1312, 6750, 1437, 78, 2654, 22, 17, 43, 80, 5, 27, 2944, 3, 9, 2107, 3281, 37, 29, 633, 119, 722, 2348, 140, 113, 130, 1219, 8, 6913, 885, 44, 9996, 1458, 1603, 933, 1315, 12, 8, 1078, 2101, 97, 55, 3320, 3072, 3708, 3390, 2018, 6206, 18, 25565, 6, 2049, 21, 652, 16, 1586, 5, 27, 31, 51, 310, 8032, 25, 31, 162, 141, 3, 9, 2841, 351, 16, 69, 1078, 1310, 5, 9348, 25, 754, 752, 140, 214, 125, 97, 8, 11949, 1320, 845, 34, 885, 7, 58, 7739, 3320, 3072, 3708, 3390, 9348, 25, 754, 92, 3606, 21, 140, 8, 119, 722, 130, 3, 6319, 12, 1242, 1312, 6750, 44, 8, 97, 6, 396, 58, 432, 8, 200, 3, 18, 5376, 63, 29, 204, 13311, 3320, 382, 15, 3523, 3963, 29, 22, 17, 217, 136, 2101, 648, 16, 8, 6913, 68, 7122, 367, 274, 62, 877, 12, 37, 11, 34, 22, 7, 4568, 314, 2028, 5, 101, 4363, 44, 9996, 1808, 1282, 4273, 8, 119, 722, 1114, 1312, 6750, 5, 3320, 382, 15, 3523, 1203, 27, 317, 34, 398, 13, 118, 8, 6380, 24, 474, 8, 18094, 7, 323, 30, 8, 11416, 131, 227, 62, 2944, 69, 2107, 6750, 78, 8, 722, 227, 178, 737, 22, 17, 237, 43, 24, 1182, 893, 3320, 382, 15, 3523, 27, 734, 24, 2327, 323, 19, 1316, 68, 3479, 3519, 7, 274, 8, 1078, 47, 6733, 5, 3320, 3072, 3708, 3390, 27, 31, 51, 8032, 12, 1616, 13, 8, 807, 25, 15110, 44, 69, 1078, 6206, 18, 25565, 3, 5, 27, 54, 734, 39, 3315, 5, 27, 43, 2804, 39, 10394, 12, 69, 2159, 2271, 78, 48, 54, 36, 8705, 5, 7739, 4893, 1303, 17, 5, 509, 87, 102, 63, 755, 956, 3264, 536, 279, 526, 3320, 3072, 3708, 3390, 27, 133, 92, 114, 12, 3691, 39, 2622, 30, 69, 3224, 1002, 21, 647, 2456, 6, 54, 25, 3, 7407, 39, 423, 564, 11, 1115, 58, 3, 12016, 3, 18, 446, 21993, 204, 13311, 3320, 382, 15, 3523, 1142, 1622, 34, 1], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'labels': [37, 884, 845, 24, 3, 88, 3495, 8, 2269, 500, 6913, 44, 9996, 2534, 2028, 28, 112, 520, 11, 79, 410, 59, 129, 8, 1312, 6750, 91, 132, 11, 79, 130, 118, 1219, 24, 79, 33, 2327, 8, 1312, 6750, 1437, 5, 37, 3102, 987, 7, 44, 125, 97, 8, 6913, 1320, 845, 34, 885, 7, 11, 987, 7, 12, 3, 7407, 8, 423, 564, 11, 1115, 13, 8, 884, 12, 3691, 8, 10394, 16, 70, 3224, 358, 21, 647, 169, 5, 1]}.
+***** Running training *****
+  Num examples = 792
+  Num Epochs = 1
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 99
+***** Running testing *****
+  Num examples = 87
+  Instantaneous batch size per device = 4
+  Total eval batch size = 4
+Using default tokenizer.
+{'rouge': {'rouge1': 27.6039, 'rouge2': 9.7706, 'rougeL': 21.1653, 'rougeLsum': 24.298}, 'ppl': {'perplexity': 4.3739, 'ref_perplexity': 15.3543}, 'bertscore': {'precision': 84.9489, 'recall': 85.7693, 'f1': 85.3321}}
+
+Start Predicting!
+***** Running testing *****
+  Num examples = 87
+  Instantaneous batch size per device = 4
+  Total eval batch size = 4
+Parameter 'function'=<function get_datasets.<locals>.preprocess_function at 0x7129c9727940> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+
+Start Predicting!
+***** Running testing *****
+  Num examples = 87
+  Instantaneous batch size per device = 4
+  Total eval batch size = 4
+Parameter 'function'=<function get_datasets.<locals>.preprocess_function at 0x7baf952e7940> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+
+Start Predicting!
+***** Running testing *****
+  Num examples = 87
+  Instantaneous batch size per device = 4
+  Total eval batch size = 4
+Parameter 'function'=<function get_datasets.<locals>.preprocess_function at 0x7a89572e7940> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+
+Start Predicting!
+***** Running testing *****
+  Num examples = 87
+  Instantaneous batch size per device = 4
+  Total eval batch size = 4
+Parameter 'function'=<function get_datasets.<locals>.preprocess_function at 0x7e4decea7940> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Parameter 'function'=<function get_datasets.<locals>.preprocess_function at 0x7767feae7940> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Parameter 'function'=<function get_datasets.<locals>.preprocess_function at 0x7f1977ee7940> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
